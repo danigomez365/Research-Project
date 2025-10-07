@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Research Project: Part 1
-# 
-
-# In[1]:
-
-
 #RESEARCH PROJECT 
 
 # Data handling
@@ -240,14 +231,14 @@ recall = recall_score(y_test_male, y_pred_male)
 print("Recall:", round(recall, 2))
 
 
-#religious confision matrix 
+#religious confusion matrix 
 cm_religion = confusion_matrix(y_test_religion, y_pred_religion)
 
 print("Confusion Matrix for religion:")
 print(cm_religion)
 
 
-#religious confision matrix 
+#religious confusion matrix 
 cm_religion = confusion_matrix(y_test_religion, y_pred_religion)
 
 print("Confusion Matrix for religion:")
@@ -379,7 +370,7 @@ dpr_christian = min(mf_christian.by_group) / max(mf_christian.by_group)
 print("Demographic Parity Ratio (Christian vs Others):", round(dpr_christian, 3))
 
 
-# In[ ]:
+
 
 
 
